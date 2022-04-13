@@ -1,0 +1,82 @@
+*{
+    font-family: poppins;
+}
+
+.bg-footer
+{
+    background-color: rgba(0, 0, 0, 0.863);
+    font-size: small;
+}
+
+.color-h4 h4
+{   
+    color: rgb(83, 78, 78);
+}
+.contenedorCarousel
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-brand img
+{
+    height: 70px;
+}
+
+.titulos_periodismo h4{
+    background-color: lightcyan;
+}
+
+.titulos_periodismo h5{
+    background-color: lightgoldenrodyellow;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .btn
+    {
+        font-size: medium;   }
+
+    
+        h4
+        {
+            font-size:medium;
+           
+        }
+    h5
+    {
+        font-size:medium;
+    }
+
+    .contenedorCarousel
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    h5.kzo {
+        font-size: 14px;
+}
+    h5.conductorNoticiero
+    {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    
+    .videos
+    {
+        width: 48%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+
+}
+
+footer 
+{
+    background-color: lightgray;
+}
+
