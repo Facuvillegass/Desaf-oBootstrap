@@ -8,6 +8,32 @@
     font-size: small;
 }
 
+
+
+.skills__mkt
+{
+    animation-name: girarEjeX;
+    animation-iteration-count:infinite;
+    
+}
+
+nav img{
+    animation-name: LogoNavAnim;
+    animation-iteration-count:infinite;
+   
+}
+
+@keyframes girarEjeX{
+    from 
+    {
+        transform: rotateY(0deg);
+    }
+    to 
+    {
+        transform: rotateY(360deg);
+    }
+}
+
 .color-h4 h4
 {   
     color: rgb(83, 78, 78);
@@ -20,7 +46,7 @@
 }
 .navbar-brand img
 {
-    height: 70px;
+    height: 3.8rem;
 }
 
 .titulos_periodismo h4{
@@ -29,7 +55,8 @@
 
 .titulos_periodismo h5{
     background-color: lightgoldenrodyellow;
-}
+} 
+
 
 @media screen and (max-width: 600px) {
     
@@ -55,11 +82,11 @@
     margin-right: auto;
 }
     h5.kzo {
-        font-size: 14px;
+        font-size: 0.9rem;
 }
     h5.conductorNoticiero
     {
-        font-size: 15px;
+        font-size: 0.9rem;
     }
 }
 
@@ -77,6 +104,9 @@
 
 footer 
 {
-    background-color: lightgray;
+    background-color: white;
 }
+footer a:hover{
+    background-color: black;
 
+}
